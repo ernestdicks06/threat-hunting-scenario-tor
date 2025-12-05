@@ -6,7 +6,7 @@
 - [Scenario Creation](https://github.com/ernestdicks06/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation)
 
 ## Platforms and Languages Leveraged
-- Windows 10 Virtual Machines (Microsoft Azure)
+- Windows 11 Virtual Machines (Microsoft Azure)
 - EDR Platform: Microsoft Defender for Endpoint
 - Kusto Query Language (KQL)
 - Tor Browser
@@ -152,12 +152,12 @@ c:\users\labuser\desktop\tor browser\browser\torbrowser\tor\tor.exe
 
 ## 5. Additional TOR Network Connections
 
-Timestamps:
-
 A few additional connections were observed over port 443, indicating continued TOR network traffic and circuit establishment.
+
 
 Event: Additional TOR network connections established by user “labuser” using tor.exe.
 Action: Multiple successful outbound connections detected.
+
 ---
 
 ## Summary
